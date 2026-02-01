@@ -1,7 +1,7 @@
 # Aerynos Dotfiles Installation
 
 ### 1. Dependencies
-If you are using a fresh console install you need to install curl:
+You need to install curl:
 ```bash
 sudo moss it curl
 ```
