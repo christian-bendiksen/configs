@@ -1,7 +1,7 @@
 # Aerynos Dotfiles Installation
 
 ### 1. Dependencies
-If you are using a fresh console install you need to install curl:
+You need to install curl:
 ```bash
 sudo moss it curl
 ```
@@ -17,10 +17,15 @@ cd .config
 
 ### Post-Installation Setup
 
-After the installation is complete, you need to configure your monitor and keyboard layout:
+After the installation is complete, you need to configure your monitor and keyboard layout and whatever else you might need:
 
-`hx ~/.config/mango/native/input.conf`
+```bash
+hx ~/.config/mango/native/input.conf
+```
 
-Edit whatever else you might need.
+Set adw-gtk3 theme with gsettings:
+```bash
+gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3"
+```
 
 Run `mango` from tty
